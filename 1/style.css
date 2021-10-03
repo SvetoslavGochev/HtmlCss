@@ -1,0 +1,66 @@
+body {
+    background: grey;
+    font-size: 40px;
+    /* //golemina bukvi */
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h3.title {
+    text-align: center;
+    color: blue;
+}
+/* atribut za klasove  moje da se povtarq da se slaga na razli4ni atributi da se preizpolzva */
+.form {
+   text-align: left;
+    /* background: powderblue; */
+    background-image: url("https://www.guidedogs.org/wp-content/uploads/2019/11/website-donate-mobile.jpg");
+    color: green;
+    background-repeat: no-repeat;
+    background-position: left;
+    /* bukvicvqt */
+    border-radius: 3px ;
+    padding: 6px 12px;
+    /* kade da e teksra */
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    /* da ima mqsto otpred */
+    text-indent: 50px;
+    border: 4px solid green
+}
+/* id e uniklano samo edin h1 moje da ima id */
+#my-secondHeading {
+    color: hotpink;
+    text-align: right;
+    border: 1px solid red;
+    /* ramkata */
+}
+
+.btn {
+    background: goldenrod;
+    color: white;
+    border-radius: 12px;
+    padding: 6px 12px;
+    border: none;
+    text-transform: capitalize; 
+    /* glavnabukva */
+}
+
+button.btn {
+    background: red;
+}
+/* kogato mi6kate e varhu butona */
+button:hover {
+background: blue;
+cursor:  pointer;
+border: 1px solid black;
+border-radius: 12px;
+
+}
+/* h1 => class =>  id  prioritet na izpalnenie !important => best*/

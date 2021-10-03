@@ -1,0 +1,29 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+.a1 {
+    font-size: 25px;
+background-color:  green;
+border-radius: 3px;
+color: white;
+text-decoration: none;
+padding: 5px 10px;
+margin: 20px;
+}  
+.a2 {
+font-size: 25px;
+background-color:  orange;
+border-radius: 3px;
+color: white;
+text-decoration: none;
+padding: 5px 10px;
+margin: 20px;
+}  
+
+
+/* parviq paragragh */
+p:nth-child(1) a{
+
+}
+p:nth-child(2) a{
+
+}

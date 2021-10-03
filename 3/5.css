@@ -1,0 +1,18 @@
+
+/* .square-list {
+ list-style: square;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,700&display=swap');
+html {
+   font-family:  Raleway, sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+}
+
+.h1, h2 {
+    font-family: Great Vibes, cursive ;
+    font-weight: bold;
+    line-height: 1.2;
+}

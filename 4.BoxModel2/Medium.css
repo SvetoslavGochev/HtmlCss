@@ -1,0 +1,43 @@
+html {
+    font-family: Helvetica sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box;
+    /* ob6toto da e 800px */
+}
+
+save
+h1 {
+    font-family: Georgia;
+}
+
+p {
+    margin: 0px;
+    /* za da sa podravneni otdulu i da mahnem defoultniq */
+}
+.medium {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.med1,
+.medss {
+    display: inline-block;
+    width: 34%;
+}
+.med1-button {
+    background-color: green;
+    color: honeydew;
+    border-radius: 3px;
+    padding: 6px 20px;
+    border: none;
+     /* da nqma 4erta po butona */
+}
+span {
+    background-color: greenyellow;
+
+}
+
+

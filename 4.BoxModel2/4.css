@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 70px, auto;
+}
+
+
+h1,
+nav {
+    display: inline-block;
+}
+
+h1 {
+    margin-right: 30px;
+
+}
+
+header {
+
+    border-bottom: 2px solid black;
+
+}
+
+
+nav ul li {
+    display: inline block;
+    margin: 0, 12px;
+}
+
+
+nav a {
+
+    text-decoration: none;
+    color: green;
+}

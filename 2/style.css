@@ -1,0 +1,19 @@
+div p {
+
+    /* tarsi p tag v div element */
+    background-color: aqua;
+    color: red
+}
+p {
+    background-color: gold
+}
+
+
+/* select vsi`ko v diva*/
+div * {
+    background-color: goldenrod;
+}
+
+footer {
+    background-color: green;
+}

@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #eeeeee;
+}
+
+.galeri {
+    margin: 60px 120px;
+}
+
+.galeri li {
+    border-width: 0.4rem;
+    border: black;
+    border-style: solid;
+    display: inline-block;
+    background: white;
+    padding: 15px;
+    margin:15px 8px;
+    vertical-align: middle; 
+    /* na elementi koito imat display blok  */
+    max-width: 304px;
+    /*  width: 30%;*/
+}
+
+.galery li img {
+    width: 100%;
+}
+
+/* vertical-align: raboti samo s  display: inline-block; */

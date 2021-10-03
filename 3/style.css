@@ -1,0 +1,82 @@
+ /* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");  */
+/* //embendvame roboto */
+
+/* font-size razmer na 6rifta */
+/* @import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');   */
+
+@font-face {
+  /* svalq lokalno shrifta */
+  font-family: "Roboto" ;
+  src: url("/Roboto/Roboto-Italic.ttf");
+}
+
+body {
+  font-family: "Roboto", "Verdana", "Georgia", "san-serif";
+  /* font-family:  "Georgia"; */
+  font-size: 1rem;
+}
+
+
+
+
+ html {
+  /* root element */
+  font-size: 25px;
+}
+
+i {
+  color: red;
+}
+
+input {
+  outline: 2px solid red;
+}
+/*  
+1rem -> 25px relativen pat kym html taga
+em tarsi nai blizkiq za da vzeme
+*/
+
+button:hover {
+  background: red;
+  cursor: pointer;
+  outline: 2px solid blue;
+}
+
+h1 {
+  opacity: 0.7;
+  /* prozra4nost  */
+}
+
+
+
+
+.text {
+    background: lightgreen;
+    border-radius: 4px; 
+    padding: 20px;
+    max-width: 300px;
+    /* shiro`ina na sekciqta */
+    margin: 40px auto;
+    height: 300px;
+   
+}
+/* em vzima fonsize na parent */
+.text p {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 50px;
+    /* slaga mnogoto4iq */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* za vsqka duma bukvi
+     */
+    text-transform: capitalize;
+    /* dali da prenasq dalg
+    a duma na nov red */
+    /* word-break: ; */
+}
+
+#my {
+    background: red;
+}

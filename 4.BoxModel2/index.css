@@ -1,0 +1,27 @@
+header {
+ 
+  
+}
+
+nav {
+    background-color: goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* width: 34%;
+    max-width: 900px; */
+}
+
+li {
+    display: inline-block ;
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: honeydew;
+}
+main section {
+    overflow: scroll;
+    background-color:  lightblue;
+    height: 150px;
+    max-width: 100px;
+}
