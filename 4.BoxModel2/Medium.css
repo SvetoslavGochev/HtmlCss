@@ -19,7 +19,7 @@ margin-bottom: 12px;
 h2 {
     margin-bottom: 20px;
     /* da e razdalwe4eno ot dolnoto */
-    width:100%;
+
 }
 
 p {
@@ -29,19 +29,33 @@ p {
 .medium {
     max-width: 800px;
     margin: 50px auto;
+    
 }
+
+
+
 
 .medium-header {
     margin-bottom: 25px;
     /* da ne sa dolepeni */
 }
 
-
+.medium::after {
+content: "";
+width: 40%;
+height: 1px;
+background: lightslategray;
+display: block;
+margin:  50px auto;
+/* za da vzeme celiq red */
+font-weight: bold;
+}
+/* slaga 4erti4ka po sekciqta  */
 
 .med1,
 .medss {
     display: inline-block;
-    width: 34%;
+    width: 37%;
     vertical-align: bottom;
     /* zxa da sa na edna liniq podravneni */
 }
@@ -53,7 +67,23 @@ p {
     border: none;
      /* da nqma 4erta po butona */
 }
-span {
+/* .med1-button::before {
+    content: "toni";
+    slaga pred burtona toni
+
+    moje i
+     content: "" slaga se vsekipat da varvi
+    backgraund-color: red
+    or   backgraund-color: url(adresa na snimkata)
+    width: 10
+    height: 10
+    display : inlline block
+    borderradius: 50: 
+    slaga to4ka
+} */
+
+
+.span-text {
     background-color: greenyellow;
 
 }
