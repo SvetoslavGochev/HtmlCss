@@ -1,0 +1,93 @@
+html {
+    font-family: Helvetica sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box;
+    /* ob6toto da e 800px */
+}
+
+save
+h1 {
+    font-family: Georgia;
+color: solid black;
+font-size: 35px;
+margin-bottom: 12px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    /* da e razdalwe4eno ot dolnoto */
+
+}
+
+p {
+    margin: 0px;
+    /* za da sa podravneni otdulu i da mahnem defoultniq */
+}
+.medium {
+    max-width: 800px;
+    margin: 50px auto;
+    
+}
+
+
+
+
+.medium-header {
+    margin-bottom: 25px;
+    /* da ne sa dolepeni */
+}
+
+.medium::after {
+content: "";
+width: 40%;
+height: 1px;
+background: lightslategray;
+display: block;
+margin:  50px auto;
+/* za da vzeme celiq red */
+font-weight: bold;
+}
+/* slaga 4erti4ka po sekciqta  */
+
+.med1,
+.medss {
+    display: inline-block;
+    width: 37%;
+    vertical-align: bottom;
+    /* zxa da sa na edna liniq podravneni */
+}
+.med1-button {
+    background-color: green;
+    color: honeydew;
+    border-radius: 3px;
+    padding: 6px 20px;
+    border: none;
+     /* da nqma 4erta po butona */
+}
+/* .med1-button::before {
+    content: "toni";
+    slaga pred burtona toni
+
+    moje i
+     content: "" slaga se vsekipat da varvi
+    backgraund-color: red
+    or   backgraund-color: url(adresa na snimkata)
+    width: 10
+    height: 10
+    display : inlline block
+    borderradius: 50: 
+    slaga to4ka
+} */
+
+
+.span-text {
+    background-color: greenyellow;
+
+}
+.p-text {
+    line-height: 21px;
+}
+
