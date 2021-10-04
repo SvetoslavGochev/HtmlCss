@@ -1,0 +1,25 @@
+article {
+    
+
+
+}
+
+.A {
+height: 300px;
+float: left;
+width: 75%;
+background: tomato;
+}
+.B {
+float: right;
+width: 30%;
+background: turquoise;
+}
+.C {
+
+background: yellow;
+clear: both;
+/* iz4istva floata i si zastava na mqstoto ako e footer da si zastane otdolu */
+background: wheat;
+}
+

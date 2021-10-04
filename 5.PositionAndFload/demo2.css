@@ -1,0 +1,11 @@
+img {
+    max-width:300px ;
+    width: 100%;
+    margin: 10px;
+}
+
+article {
+    float: left;
+    /* snimkata e ot lqvo i puska teksrta da stoi sled neq do neq */
+    /* clear: right;  snimkata da e ot lqwvo i da nqma teks do neq */
+}
