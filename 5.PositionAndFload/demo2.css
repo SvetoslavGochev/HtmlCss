@@ -26,3 +26,19 @@ ako ima paraent element to left top bottom sa spored nego
     top: 20px;
     /* otiva nadolu ili nagore ot tekushtata poziciq */
 }
+.baner {
+    position: fixed;
+    /* dokato skrolvame da si stoi na mqsto */
+    background:yellowgreen;
+    box-shadow: gray;
+    width: 80%;
+    /* top: 100px;
+    ako iskame da stoi otdolu  za kukita*/
+    bottom: 0;
+    margin: 0, auto;
+    text-align: center;
+    left:  100px;
+    border-radius: 8px;
+    padding-bottom: 60px;
+    /* pravi mqsto otdolu */
+}
