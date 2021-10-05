@@ -11,10 +11,22 @@ body {
     max-width: 211px;
     border-radius: 6px;
     text-align: center;
-    box-shadow:0px 0px 2px 1px tomato;
+    box-shadow:0px 0px 2px 1px rgb(133, 129, 129);
     position: relative;
     padding: 15px 0;
 }
+
+
+.page-wrapper {
+padding: 20px;
+box-shadow: 0px 0px 2px 1px palevioletred;
+width: 224px; 
+text-align: center;
+ 
+
+}
+
+
 
 .work-text p {
 color: white;

@@ -1,0 +1,26 @@
+.text {
+    background: chartreuse;
+    padding: 10px;
+}
+/* trqbva da ima position za da raboti z index */
+.conteiner{
+
+    position: relative;
+}
+
+.second,
+ .third {
+     width: fit-content;
+    padding: 10px;
+    position: absolute;
+}
+
+.second {
+    background: chocolate;
+
+    /* kolkoto e golqmo sadarjanieto tolkoz e cveta */
+}
+
+.third {
+    background: cornflowerblue;
+}
