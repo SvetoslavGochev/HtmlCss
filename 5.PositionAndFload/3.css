@@ -48,6 +48,7 @@ div.viewport:nth-child(2) section.card {
 
 /* top 50 slaga go v sredata ot gore na dolu */
 /* left: 50%; slaga go na lqvo  */
+/* overflow: hidden; kakvo da stava ako se prepalni */
 i {
     position: absolute;
     bottom: 1rem;
