@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(238, 238, 238) ;
+    
+}
+
+img {
+    width: 50%;
+    position: absolute;
+}
+.card-content-wrapper{
+ 
+    
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  font-size: 1em/1.2;
+}
+.card {
+    max-width: 300px;
+    text-align: center;
+    margin: 150px auto;
+ background: rgb(255, 255, 255); 
+ position: relative;
+}
+
+.p {
+    text-align: left;
+}
+.button {
+margin: 0px 10px 25px 15px;
+padding: 5px 5px;
+float: right;
+background: rgb(0, 153, 0) ;
+}
+/* 
+float: right; butona da e v levo
+ */
