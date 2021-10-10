@@ -11,10 +11,19 @@ body {
     color: white;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    margin: 0 0 0 auto;
+    padding: 10px;
+    width: fit-content;
+    margin-left: auto;
+
 }
+/* width: fit-content; 
+6irinata da e kolkoto sadarjanieto
+margin-left: auto;
+otide otdqsno*/
 .benefist-list {
     padding: 0px;
-    margin: 0px;
+    margin: 0px; 
 }
 
 .benefist {
@@ -32,8 +41,9 @@ body {
  
 }
 .benefist-list-item-text {
-    display: inline-block;
-    width: 90%;
+  display: inline-block;
+  width: 90%;
+    
 }
 /* teksta i ikonkata da sa na edin red */
 
@@ -51,6 +61,13 @@ dolepqt se mnogo malko razstoqnie mejdu tqh
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
+/* vtoriq i tretiq da sa dopreni edin do drug */
+
+.benefist-list-item:nth-child(2),.benefist-list-item:nth-child(3){
+   margin: 0px;
+}
+
 
 
 /* ikonkata razmer i cvqt */
