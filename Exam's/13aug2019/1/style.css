@@ -9,10 +9,12 @@ body {
 .benefist-title {
     background: blue;
     color: white;
-    max-width: 50px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    
+}
+.benefist-list {
+    padding: 0px;
+    margin: 0px;
 }
 
 .benefist {
@@ -24,4 +26,36 @@ body {
 
 .benefist-list-item {
   background:gray;  
+  list-style: none;
+  margin: 1px 0px;
+  padding: 10px;
+ 
+}
+.benefist-list-item-text {
+    display: inline-block;
+    width: 90%;
+}
+/* teksta i ikonkata da sa na edin red */
+
+/* margin: 1px 0px;
+padding: 10px;
+dolepqt se mnogo malko razstoqnie mejdu tqh
+*/
+.benefist-list-item:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+/* parviq i posledniq element da sa s zakragleni border*/
+
+.benefist-list-item:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+/* ikonkata razmer i cvqt */
+.benefist-list-item i {
+color: green;
+font-size: 20px;
+
 }
