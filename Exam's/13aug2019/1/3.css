@@ -107,6 +107,7 @@ ul, li {
   list-style: none;
   margin: 8px;
   list-style-type: none;
+  
 }
 
 .third-nav .b2 {
@@ -117,11 +118,12 @@ ul, li {
     padding: 12px 18px;
     border: none;
     font-weight: bold;
-    margin: 0;
-    position: absolute;
+    margin: auto;
+    padding: 15px;
+    /* position: absolute;
     top: 37%;
     left: 47%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-50%);  centrirago na centara ama e trudno*/
     
 }
