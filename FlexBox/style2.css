@@ -9,9 +9,9 @@ main {
 
 /* 
 align-items: center; ni pozvolqva da centrirame sadarjanieto na na elementa
-flex-start ,end viso4ina ta e kolkoto na elementa
+flex-start vseki si e s negovata viso4ina ,
 stretch vsi4ki sa s ednakva viso4ina sprqmo na dalgiq
-
+flex-wrap: wrap; da hodqt na dolniq red kato se zapalni
 
 
 
