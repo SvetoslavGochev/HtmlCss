@@ -1,5 +1,26 @@
+main {
+    display: flex;
+}
+/* stavat na edin red */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* 
+ justify-content: center;
+ centrira secciite
+flex-wrap: wrap; ako ne stiga reda gi svalq na dolu
+ima no wrap
+
+ima dve osnovni osi => main i kros
+  flex-direction: column ili
+  stavat na kolona ;
+*/
 section {
     background: pink;
-    max-width: 300px;
-    margin: auto;
+     max-width: 300px;
+    /* margin: 10px;  */
+    margin-right: 20px;
+    
 }
