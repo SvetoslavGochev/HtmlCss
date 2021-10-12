@@ -1,12 +1,36 @@
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+
     flex-direction: row;
-    align-items: flex-start;
+    align-items: flex-end;
+    border: 1px solid black;
 }
 
+.a {
+    flex-grow: 1;
+}
+/*
 
+ flex-grow: 1; ako ima mqsto shte stane po 6iroka sekciqta
+ 
+
+  */
+
+h1 {
+    order: 1;
+}
+.img2 img  {
+max-width: 300px;
+width: 100%;
+display: flex;
+flex-direction: column;
+order: 3;
+}
+
+button {
+    order: 2;
+}
 /* 
 align-items: center; ni pozvolqva da centrirame sadarjanieto na na elementa
 flex-start vseki si e s negovata viso4ina ,
@@ -14,14 +38,24 @@ stretch vsi4ki sa s ednakva viso4ina sprqmo na dalgiq
 flex-wrap: wrap; da hodqt na dolniq red kato se zapalni
 
 
+za childrenite vsi4ki sa s order: 0
+AKO SLOJIMNA NQKOJ ORDER 1 TOI OTIVA NAI OTZAD
+AKO SLOJIM -1 OTIVA NAI OTPRED
 
 
 */
-
-
+/* article {
+    display: flex;
+    align-items: flex-end;
+} */
+/*
+ align-items: flex-end; kade da se pozicionirat na gore ili na dolu
+ vseki si zaema negovata viso4ina
+ */
 section {
     background: pink;
     margin-left: 20px;
+    margin: 5px;
 }
 
 
