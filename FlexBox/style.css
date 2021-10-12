@@ -5,11 +5,12 @@ main {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 /* 
- justify-content: center;
- centrira secciite
+requiment display: flex; trqbcva da ima 
+ justify-content: center; end- vkraq na flex reda  centrira secciite
+ space-between razdelq gi na ravno edin ort drug
 flex-wrap: wrap; ako ne stiga reda gi svalq na dolu
 ima no wrap
 
@@ -20,7 +21,22 @@ ima dve osnovni osi => main i kros
 section {
     background: pink;
      max-width: 300px;
-    /* margin: 10px;  */
+    /* margin: 10px;   za da raboti margin trq2bva da ima fixiran */
     margin-right: 20px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    
+    display: flex;
+    /* justify-content: space-around; */
+}
+li {
+    
+    width: 100px;
     
 }

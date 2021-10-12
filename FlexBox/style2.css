@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+/* 
+align-items: center; ni pozvolqva da centrirame sadarjanieto na na elementa
+flex-start ,end viso4ina ta e kolkoto na elementa
+stretch vsi4ki sa s ednakva viso4ina sprqmo na dalgiq
+
+
+
+
+
+*/
+
+
+section {
+    background: pink;
+    margin-left: 20px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul {
+    
+    display: flex;
+  justify-content: space-between;
+}
+
+li {
+    width: 70px;
+}
