@@ -11,9 +11,11 @@ h2 {
 }
 
 section {
+    max-width: 70vw;
+    /* nqma fiks razmer na parenta i 70 vw e 70% */
     display: flex;
     justify-content: space-between;
-    max-width: 70vw;
+    margin: 40px auto;
     
    
 }
