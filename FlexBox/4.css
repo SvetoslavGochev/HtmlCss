@@ -2,20 +2,53 @@ html {
     box-sizing: border-box;
 }
 
-div ,section {
-
-    display: flex;
-    align-items: center;
-}
-.notes {
-    flex-direction: column;
+* {
+    box-sizing: inherit;
 }
 
 
 div {
+    display: flex;
+    flex-direction: row;
     max-width: 65vw;
 }
 
 span {
-    border:1px solid black
+    border:1px solid black;
+    padding: 20px;
 }
+
+.week {
+    flex-basis: 70%;
+    display: flex;
+   flex-wrap: wrap;
+
+
+}
+.week span {
+    flex-grow: 1;
+    /* da zaemat cqloto nali4no prostranstwo */
+}
+
+
+.o ,.w{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+   
+}
+.reminders {
+    flex-grow: 1;
+}
+.special {
+    flex-grow: 1
+    ;
+}
+
