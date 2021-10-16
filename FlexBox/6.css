@@ -1,5 +1,9 @@
-body ul li {
+body, ul, li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+img {
+    width: 70%;
 }
