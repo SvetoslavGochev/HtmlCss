@@ -1,50 +1,64 @@
- html {
-     box-sizing: border-box;
- }
- 
- 
- body {  
-    font-family:Helvetica, sans-serif;
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
     background: rgb(238, 238, 238);
-    margin: 0px;
-    padding: 0px;
 }
-.h2 {
-    font-size: 33;
+
+h2 {
     font-family: Georgia, serif;
-}
-.cards-layout {
-    max-width: 1400px;
-    /* za da nqmat na 100% with */
-    margin: 70px auto ;
+    margin: 20px 145px;
 }
 
-
-.card {
-    box-shadow: 0px 0px 1px black;
-    border-radius: 6px;
-    margin-left: 22px;
-    margin-bottom: 22px;
-    
+div.cards-layout article {
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
-.card-header img {
+div.cards-layout article img {
     width: 100%;
-   border-top-left-radius: 6px;
-   border-top-right-radius: 6px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
-.card-content {
-    padding: 15px;
+div.cards-layout article > p {
+    padding: 0 12px;
 }
 
-.card.footer {
-    border-top: 1px solid gray;
-    padding: 15px;
+div.cards-layout article p:nth-child(3) {
+    flex-grow: 1;
 }
 
-.mansory {
-    display: inline-block;
-    vertical-align: top;
-    max-width: 350px;
+div.cards-layout article footer {
+    padding: 12px;
+    border-top: 2px solid lightgrey;
+}
+
+div.cards-layout.masonry {
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+}
+
+div.cards-layout.masonry div.col {
+    margin: 10px;
+    flex-basis: 30%;
+}
+
+div.cards-layout.masonry div.col article {
+    margin: 20px 0;
+}
+
+div.cards-layout.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 50px auto;
+}
+
+div.cards-layout.flex article {
+    margin: 10px;
+    flex-basis: 30%;
 }
