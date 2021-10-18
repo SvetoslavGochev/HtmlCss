@@ -7,11 +7,34 @@ section {
 481px — 768px for iPads & tablets,
  769px — 1024px for small screens like laptop,
   1025px — 1200px for large */
-
-@media only screen and (width:600px) {
+/* mobile firs */
+@media only screen and (max-width:480px) {
 /* akao monitora ima 600px width vse edno e if */
 
     section {
-        background: red;;
+        background: red;
+        display: block;
     }
 }
+
+/* maina default block i moje da propunem tova */
+
+@media only screen and (max-width:768px) {
+    /* akao monitora ima 600px width vse edno e if */
+    
+        section {
+            background: red;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    @media only screen and (min-width:800px) {
+        /* akao monitora ima 600px width vse edno e if */
+        
+        section {
+            background: red;
+            display: flex;
+            flex-wrap: wrap;
+           
+        }
+    }
