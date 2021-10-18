@@ -1,0 +1,12 @@
+section {
+
+}
+
+
+@media only screen and (width:600px) {
+/* akao monitora ima 600px width vse edno e if */
+
+    section {
+        background: red;;
+    }
+}
