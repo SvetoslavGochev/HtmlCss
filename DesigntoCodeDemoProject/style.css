@@ -73,4 +73,38 @@ body {
     /* body{
         background: red;
     } za proverka */
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* 
+    navigaciqta stava na kloni 
+     */
+
+    .nav-img {
+        margin-bottom: 15px;
+    }
+     /* 
+   imng otiva otgore
+     */
+
+     .nav-menu {
+         flex-wrap: wrap;
+     }
+        /* 
+  kato nqma mqsto da slizat otdolu
+     */
+.nav-menu li {
+    margin: 15px;
 }
+
+}
+
+
+@media all and (max-width: 570px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* ------------------------------------------------------------------- */
