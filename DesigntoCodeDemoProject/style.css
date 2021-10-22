@@ -1,0 +1,17 @@
+
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    border-bottom: none;
+}
