@@ -241,7 +241,7 @@ body {
 
  }
 
- @media all and (max-width: 940px)
+ @media all and (max-width: 570px)
  {
    .sertificate{
        
@@ -296,4 +296,30 @@ body {
     line-height: 24px;
     /* razstoqnie mejdu */
     margin: 0px 0px 20px 0px;
+}
+@media all and (max-width: 1200px)
+{
+
+
+}
+
+
+@media all and (max-width: 940px)
+{
+  
+
+}
+
+@media all and (max-width: 570px)
+{
+ .career {
+     flex-direction: column;
+ }
+ .career-img {
+    max-width: 370px;
+    /* da e malka snimkata */
+    margin-top:30px ;
+    margin-left: 20px;
+ }
+
 }
