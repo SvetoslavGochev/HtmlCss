@@ -254,29 +254,46 @@ body {
 
  .career {
      display: flex;
+     align-items: center;
      padding: 30px 80px;
      margin: 30px 0px;
-     align-items: center;
  }
 
  .career-img {
 
-     margin-right: 20px;
-     flex-basis: 80%;
+     margin-right: 60px;
+     
  }
 
 .career-img img {
-    width: 100%;
+    
 }
 .btn-carreer {
-    border-radius: 22px;
-    border-color: red;
-    padding: 8px 12px;
+    border:1px solid indigo;
     color: indigo;
     background: white;
     text-transform: capitalize;
-}
+    border-radius: 22px;
+    padding: 8px 12px;
+    text-decoration: none;
+    /* da se mahne pod4ertavkata */
+    margin-top: 30px;
+    /* sliza po nadolu
+    toi e inline element i te nqmar margin top go pravim blok */
+    display: block;
+    width: fit-content;
+    /* kolkoto e konteta toklo da zaema za6toto e blokmelement */
 
-.career-text {
-    margin-bottom: 25px;
+}
+.career-content-title {
+    color: gray;
+    margin: 0px 0px 20px 0px;
+}
+.career-content {
+    /* margin-bottom: 25px; */
+}
+.career-content-text {
+    line-height: 24px;
+    /* razstoqnie mejdu */
+    margin: 0px 0px 20px 0px;
 }
