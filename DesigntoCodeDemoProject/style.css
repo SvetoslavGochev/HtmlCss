@@ -197,7 +197,7 @@ body {
 
  .sertificate {
      display: flex;
-     padding: 15px 80px;
+     padding: 30px 80px;
      background: black;
      align-items: center;
      margin: 30px 0px;
@@ -211,13 +211,46 @@ body {
     .certificate-img {
         flex-basis: 50%;
         position: relative;
+        top:75px;
+
 
  }
 
 
  .certificate-img img{
-     
-
-     position: absolute;
-     top: 30px;
+     width: 100%;
  }
+
+ @media all and (max-width: 1200px)
+ {
+  .certificate-img {
+      flex-direction: column;
+      top:0px;
+      max-width: 370px;
+      /* da e malka snimkata */
+      margin-top:30px ;
+      /* da ne sa zalepeni */
+  }
+
+ }
+
+
+ @media all and (max-width: 940px)
+ {
+   .sertificate{
+       
+    flex-direction: column;
+   }
+
+ }
+
+ @media all and (max-width: 940px)
+ {
+   .sertificate{
+       
+    padding: 20px, 30px;
+    /*  namalqme padinga 6toto e telefon */
+   }
+
+ }
+ /* ----------------------------------------------------------------------- */
