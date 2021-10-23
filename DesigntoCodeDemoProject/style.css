@@ -303,31 +303,35 @@ body {
     flex-direction: column;
 }
 .career-content {
+    margin-bottom: 15px;
 order: 1;
 }
 .career-img{
 order: 2;
 }
+.btn-carreer{
+    margin: 0px auto;
+    /* centrira butona po sredata */
+}
 /* parvo da pokazva teksta posle snimkata obra6ta im reda */
 }
 
-
 @media all and (max-width: 940px)
 {
-  
-
+    
+    
 }
 
+/* za telefon namalqme padinga */
 @media all and (max-width: 570px)
 {
  .career {
-     flex-direction: column;
+    padding: 20px 30px;
  }
- .career-img {
+ .career-img img{
     max-width: 370px;
     /* da e malka snimkata */
-    margin-top:30px ;
-    margin-left: 20px;
+   width: 100%;
  }
 
 }
