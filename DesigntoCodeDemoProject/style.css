@@ -3,6 +3,7 @@
 @import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
 html {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -10,7 +11,7 @@ html {
 *::after,
 *::before {
     box-sizing: inherit;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 h1,
@@ -340,8 +341,64 @@ footer {
     display: flex;
     justify-content: space-between;
     background: black;
-    color: white;
+    padding: 20px 80px;
+    margin-top: 30px;
+    /* da ne stoqt zalepeni sekciite */
 }
-h3 {
+.footer-list {
+    padding: 0;;
+}
+/* da stoqt ot dqsno */
+
+.footer-title {
     color: violet;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+.footer-list-item-link, 
+.social-media-copyright{
+    
+    color: white;
+    text-decoration: none;
+line-height: 24px;
+}
+
+.footer-list-item {
+    margin: 10px opx;
+}
+.solcial-media{
+margin-bottom: 10px;
+}
+
+
+.solcial-media i{
+    color: white;
+    font-size: 24px;
+    /* golemina na ikonkite */
+    margin:15px 0px 40px ;
+   
+}
+
+.copyright {
+
+}
+.all-rights-reserved {
+   font-size: 13px; 
+}
+
+@media all and (max-width: 940px)
+{
+    
+    footer {
+        display: block;
+    }
+}
+
+/* za telefon namalqme padinga */
+@media all and (max-width: 570px)
+{
+    footer {
+        display: block;
+    }
 }
