@@ -386,19 +386,22 @@ margin-bottom: 10px;
 .all-rights-reserved {
    font-size: 13px; 
 }
-
-@media all and (max-width: 940px)
+@media all and (max-width: 1200px)
 {
     
     footer {
-        display: block;
+       flex-wrap: wrap;
+       /*
+        kato nqma mqsto da gi slaga na dolu
+        */
     }
 }
+
 
 /* za telefon namalqme padinga */
 @media all and (max-width: 570px)
 {
     footer {
-        display: block;
+        padding: 20px 30px;
     }
 }
