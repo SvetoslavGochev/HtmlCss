@@ -299,8 +299,16 @@ body {
 }
 @media all and (max-width: 1200px)
 {
-
-
+.career {
+    flex-direction: column;
+}
+.career-content {
+order: 1;
+}
+.career-img{
+order: 2;
+}
+/* parvo da pokazva teksta posle snimkata obra6ta im reda */
 }
 
 
