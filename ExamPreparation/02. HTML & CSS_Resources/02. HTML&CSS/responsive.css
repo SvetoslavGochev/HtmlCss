@@ -16,12 +16,16 @@
     .header-content-text {
         width: 100%;
     }
-    /* po malka stawa sekciqta */
+    /* po malka stawa sekciqta bilo e po malko60px */
 
     .benefits {
         flex-direction: column;
     }
   .info-section {
     flex-direction: column;
+}
+/* bilo e 400px */
+  .info-section-item{
+   width:100% ;
 }
 }
