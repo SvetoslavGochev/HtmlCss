@@ -26,6 +26,8 @@
 }
 /* bilo e 400px */
   .info-section-item{
+      margin-bottom: 40px;
+      /* da ima otstoqnie mejdu sekciite */
    width:100% ;
 }
 }
