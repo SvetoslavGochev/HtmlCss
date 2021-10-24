@@ -1,15 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
 body {
     padding: 0;
     margin: 0;
+    font-family: Helvetica, sans-serif;
 }
 
 
-h1 {
+h1,h2,h3,h4,h5, h6 {
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
 }
 
 main {
+    
+    /* zaradi dolniq buton da ide otdqsno */
+   
+    background: cyan;
+    min-height: 100vh;
+    /* wiso`ina na maina */
+    padding: 100px;
+}
+.blog-articles {
     display: flex;
-    font-family: Helvetica, sans-serif;
+    align-items: center;
+}
+.blog-articles > article {
+    /* >article samo na parviq article v article samo na snimkata 6te ima box shadow */
+    background: white;
+    margin: 15px;
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 6px;
+    /* otstoqnie mejdu articalite */
+}
+.content {
+    padding: 10px;
+}
+.img-wrapper img {
+    width: 100%;
+    border-top-right-radius: 6px;
+   border-top-left-radius: 6px;
+   object-fit: cover;
+}
+
+.content-title {
+    color: orange;
+    margin-top: 0px;
+    font-size: 14px
+}
+
+.content-info {
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.content-info p img{
+margin-right: 6px;
+}
+
+.btn {
+    color: orange;
+    border:none;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 20px;
+}
+/* ikonka v butona */
+.btn i {
+margin-left: 10px;
+margin-top: 2px;
+
+}
+
+.read-more{
+    background: none;
+    color: white;
+    border:1px solid white;
+    border-radius: 16px;
+    margin-left: 1100px;
+    padding: 12px 18px;
+    
 }
