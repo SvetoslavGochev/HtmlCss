@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+html {
+    box-sizing: border-box;
+    font-family:  Helvetica,sans-serif;
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav {
+    padding: 15px 80px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px -2px black;
+    background: green;
+    /* krag4eto da ne se vijda */
+}
+
+.nav-menu {
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 0px 6px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+.nav-img {
+    width: 10%;
+}
+
+.teacher-content {
+    text-align: center;
+    background: yellow;
+
+    overflow: hidden;
+    /* da nqma prazno mejdu sekciite */
+    
+ 
+   
+}
+.teacher-content-text {
+    margin: 20px 300px 20px 300px;
+}
+.teacher-content-title {
+    margin: 50px 0px 10px 0px;
+}
