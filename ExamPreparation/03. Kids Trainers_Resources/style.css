@@ -125,6 +125,8 @@ body {
 .main-trainer-content-title {
     color:green;
     margin-bottom: 10px;
+    margin-top: 0;
+    /* da sa na edno nivi s snimkata */
 }
 .main-trainer-content-job {
     color:lightgray;
@@ -136,3 +138,25 @@ body {
     line-height: 22px;
     
 }
+
+.main-trainers2 {
+    display: flex;
+    padding: 50px 200px;
+}
+.main-trainer-img2 img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid green;
+ /* ramka na snimkata */
+     /* za da e kraglo */
+}
+
+.main-trainer-img {
+
+    border-radius: 50%;
+    /* za da e kraglo */
+    margin-right: 30px;
+    /* mqsto mejdu snimkata i teksta */
+    min-width: 200px;
+    /* golemina na snimkata */
+   }
