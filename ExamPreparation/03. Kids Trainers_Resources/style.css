@@ -138,25 +138,34 @@ body {
     line-height: 22px;
     
 }
-
-.main-trainers2 {
+/* ------------------- */
+.all-trainers {
     display: flex;
-    padding: 50px 200px;
+    padding:100px 80px 40px 80px;
+    align-items: center;
+   justify-content: center;
+   text-align: center;
+   
 }
-.main-trainer-img2 img{
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid green;
- /* ramka na snimkata */
-     /* za da e kraglo */
-}
-
 .main-trainer-img {
+    margin-right: 0px;
+}
+.all-trainers-trainer {
+    margin: 0px 15px;
+    /* snimkite da ne sa dolepeni */
+}
 
-    border-radius: 50%;
-    /* za da e kraglo */
-    margin-right: 30px;
-    /* mqsto mejdu snimkata i teksta */
-    min-width: 200px;
-    /* golemina na snimkata */
+.all-trainers-trainer .main-trainer-img img{
+
+    height: 100%;
+    object-fit: cover;
+    width: 192px;
+    height: 192px;
+    /* ednata snimka e poi golqma i taka se pravi */
+
+   }
+
+   .main-trainer-content {
+       margin-top: 20px;
+       /* pod snimite imenata da sa malko po nadolu */
    }
