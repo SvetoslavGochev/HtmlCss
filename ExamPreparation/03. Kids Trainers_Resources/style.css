@@ -42,20 +42,26 @@ body {
     padding: 0;
     display: flex;
     /*  da zastanat edno do drugo menutata */
+    /* align-items: center;  moje i bez nego*/
 }
 
 .nav-menu li {
-    margin: 0px 6px;
+    margin: 0px 12px;
+    /* da ima razstonqie mejdu lmenu */
 }
 
 .nav-menu li a {
     text-decoration: none;
+    /*  da nqma pods4ertavane */
     text-transform: uppercase;
     color: white;
     font-weight: 500;
+    /* ili bold */
+    /* align-items: center; moje i bez nego
+     */
 }
 .nav-img {
-    width: 200PX;
+    width: 120PX;
     /*  slagame razmer na snimkata za da se vijda */
 }
 .nav-img img {
@@ -63,18 +69,70 @@ body {
 }
 
 .teacher-content {
-    text-align: center;
     background: yellow;
-
-    overflow: hidden;
+    text-align: center;
+    padding: 10px 90px;
+    /* overflow: hidden; */
     /* da nqma prazno mejdu sekciite */
-    
- 
-   
-}
-.teacher-content-text {
-    margin: 20px 300px 20px 300px;
+    padding: 70px 0px;
+    /* kolko da e visko sekciqta */
+
 }
 .teacher-content-title {
-    margin: 50px 0px 10px 0px;
+    /* margin: 30px 0px 10px 0px; */
+    
+}
+.teacher-content-text {
+    /* margin: 20px 300px 20px 300px; */
+    max-width: 40%;
+    /* da e 6iroka */
+    margin: 20px auto;
+    /* da e zastane po sredata */
+}
+
+.main-trainers {
+    padding: 50px 80px;
+    /* da ne e zalepeno za gornata sekciq */
+    display: flex;
+    align-items: center;
+}
+.main-trainer {
+    display: flex;
+    padding: 20px 40px;
+    align-items: flex-start;
+}
+.main-trainer:nth-child(1) {
+    margin-right: 30px;
+}
+/* samo na parviq trainer da e razdale4em ot voriq */
+
+.main-trainer-img {
+
+ border-radius: 50%;
+ /* za da e kraglo */
+ margin-right: 30px;
+ /* mqsto mejdu snimkata i teksta */
+ min-width: 200px;
+ /* golemina na snimkata */
+}
+.main-trainer-img img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid green;
+ /* ramka na snimkata */
+     /* za da e kraglo */
+}
+.main-trainer-content-title {
+    color:green;
+    margin-bottom: 10px;
+}
+.main-trainer-content-job {
+    color:lightgray;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.main-trainer-content-text {
+    color:lightgray;
+    line-height: 22px;
+    
 }
