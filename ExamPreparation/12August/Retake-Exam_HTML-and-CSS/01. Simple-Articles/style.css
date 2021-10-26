@@ -1,0 +1,26 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+body {
+  
+}
+
+.main {
+    background: darkturquoise;
+    color:white;
+    border-radius: 7PX;
+    
+}
+
+.main-list li {
+    background: darkturquoise;
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}
+.main-list li i{
+    
+    color: blue;
+    
+}
