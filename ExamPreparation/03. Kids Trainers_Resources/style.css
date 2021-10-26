@@ -209,4 +209,41 @@ body {
 }
 footer {
     display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 10px 80px;
+    color: white;
+    /* da ne stoqt zalepeni sekciite */
+    border-top: 13px solid gray;
+}
+
+
+.footer-title {
+text-transform: uppercase;
+}
+ .footer-cool-list {
+   padding-left: 0px;
+ } /* da stoqt na edno s zaglaviqta */
+
+ .footer-cool-list li {
+   margin:8px 0px;
+/* da ima otstoqnie mejdu list-itemite */
+ } 
+
+ .solcial-media {
+     display: flex;
+     padding: 0px;
+ }
+
+ .solcial-media  i{
+    
+     font-size: 30px;
+     padding: 20px ;
    
+ }
+
+ .solcial-media i:nth-child(1) {
+     margin-right: 12px;
+     /* zastana po nadqsno */
+
+ }
