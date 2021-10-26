@@ -148,7 +148,7 @@ body {
    
 }
 .main-trainer-img {
-    margin-right: 0px;
+    
 }
 .all-trainers-trainer {
     margin: 0px 15px;
@@ -168,4 +168,20 @@ body {
    .main-trainer-content {
        margin-top: 20px;
        /* pod snimite imenata da sa malko po nadolusadsz */
+   }
+
+   .kids-team{
+       background: cyan;
+       padding: 100px 200px;
+       /* otlqvo otdesno otgorre otdolu */
+       text-align: center;
+       border-top: 8px solid blue;
+   }
+   .kids-team-title {
+       font-size: 30px;
+   }
+   .kids-team-subtitle {
+      max-width: 50%;
+      margin: 0 auto 30px auto;
+      /* za da stane na dva reda */
    }
