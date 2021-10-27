@@ -5,51 +5,69 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
 
-section {
+body {
+  padding: 0px;
+  margin: 0px;
+}
+main {
     display: flex;
-   
+    margin: 50px 100px;
+    
+    
+}
+
+.main {
   
-    width: 100vw;
-    height: 100vh;
+    background: darkturquoise;
+    color:white;
+    border-radius: 10PX;
+   
+}
+.main-title {
+    margin-left: 20px;
+
+}
+
+ main .main-list {
+    padding: 10px 30px 10px 30px;
+}
+
+.main-list li {
+    background: darkturquoise;
+    display: flex;
+    
     align-items: center;
+    
+    
+}
+.main-list  li i{
+    
+    color: blue;
+    margin-right: 20px;
+   
 }
 
-section article {
-    flex-basis: 50%;
-    max-width: 550px;
-    margin: 50px auto;
-    border-radius: 8px;
-    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+.hey {
+    background: chartreuse;
+   
+    border-radius: 10PX;
+    
 }
-section article:nth-child(1) {
-    padding: 18px;
-    background: #e3f3fd;
-  }
 
-  section article:nth-child(2) h3 {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-  }
+.hey-titles {
+    display: flex;
+margin: 150px 200px;
+}
 
-  section article button {
-    text-transform: uppercase;
-    padding: 8px 30px;
-    color: white;
-    background: #44a9f8;
-    border: none;
-    border-radius: 8px;
-    font-family: inherit;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  }
+.hey-titles1{
+    color: cyan;
+    font-size: large
+}
+.p{
+    text-align: center;
+}
 
-  section article h2,
-  section article ul {
-    padding-left: 8px;
-  }
+.btn{
+    
+}
