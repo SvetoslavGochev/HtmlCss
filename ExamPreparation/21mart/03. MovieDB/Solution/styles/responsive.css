@@ -1,0 +1,21 @@
+@media all and (max-width: 768px )
+{
+    .main-movie-poster {
+        display: none;
+    }
+    /* snimkata da se skrie */
+
+    .main-mouve ul {
+        display: block;
+        width: 100%;
+    }
+
+    .main-mouve ul li {
+        padding: 0;
+    }
+
+    .main-mouve-trailer  iframe {
+width: 70%;
+height: 100%;
+    }
+}
