@@ -1,26 +1,47 @@
 @import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
 
 body {
-  
+  padding: 0px;
+  margin: 0px;
+}
+main {
+    display: flex;
+    margin: 50px 100px;
+    
 }
 
 .main {
+  
     background: darkturquoise;
     color:white;
-    border-radius: 7PX;
-    
+    border-radius: 10PX;
+    width: 50%;
+}
+.main-title {
+    margin-left: 20px;
+
+}
+
+ main .main-list {
+    padding: 10px 30px 10px 30px;
 }
 
 .main-list li {
     background: darkturquoise;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
-   
     
 }
 .main-list li i{
     
     color: blue;
-    
+   
+}
+
+.hey {
+    background: chartreuse;
+    width: 50%;
+    border-radius: 10PX;
 }
