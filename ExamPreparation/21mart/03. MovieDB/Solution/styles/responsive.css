@@ -7,16 +7,34 @@
 
     .main-mouve ul {
         display: block;
+        /* be6e flex */
         width: 100%;
     }
 
-    .main-mouve ul li {
+    .main-movie ul li {
         padding: 0;
+       
+    }
+    .main-movie-trailer{
+width: 70%;
+margin: 20px auto;
     }
 
-    .main-mouve-trailer  iframe {
+    
+    .main-movie-trailer  iframe {
            width: 70%;
-
            height: 100%;
+           /* imat slojen predi tova v html */
+           min-height: 350px;
+    }
+
+    .movie-list li img {
+        max-height: 200px;
+    }
+    .movie {
+        height: auto;
+    }
+    .movies {
+        margin: 50px auto;
     }
 }
