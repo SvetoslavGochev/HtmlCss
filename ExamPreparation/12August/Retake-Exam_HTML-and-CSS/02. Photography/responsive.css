@@ -1,1 +1,21 @@
-/* TODO: Add media queries */
+@media all and (max-width: 600px) {
+    .thumbnails {
+        flex-direction: column;
+    }
+
+    .thumbnails > div {
+        width: 100%;
+        
+        /* da stanat ednakwi */
+      
+    }
+
+    .thumbnails a img {
+        height: 250px;
+        /* da sa s ednakva viso4ina */
+        object-fit: cover;
+        /* da ne sa razpanati */
+    }
+
+}
+
