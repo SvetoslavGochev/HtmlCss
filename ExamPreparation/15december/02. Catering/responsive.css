@@ -6,9 +6,26 @@
         display: none;
         /*  ne se vijda menuto */
     }
+
+
+    /* #about == id="about" */
     #about .w3-image {
         display: none;
         /*  ne se vijda snimkata */
     }
-
+    .w3-col.m6 {
+        width: 100%;
+        /* na cql ekran teksta */
+    }
+    #menu .w3-image{
+        display: none;
+    }
+   
+     article.w3-cool .w3-padding-large {
+        
+    }
+    .w3-col.l6 {
+        width: 100%;
+    }
 }
+  
