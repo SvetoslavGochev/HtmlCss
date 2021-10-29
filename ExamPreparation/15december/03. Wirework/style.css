@@ -91,3 +91,106 @@ body {
 .intro-content-text a {
     color: white;
 }
+
+.benefits{
+    display: flex;
+    background: black;
+    color: white;
+    padding: 80px 130px;
+}
+
+.benefit {
+   margin: 0 12px;
+}
+.benefit-img {
+  background: orange;
+
+  width: fit-content;
+  margin: 0px auto;
+  /* ikonkite da sa malko kvadrat4e */
+}
+.benefit-img i {
+  color: white;
+  font-size: 55px;
+  padding: 30px;
+}
+
+.benefit-title{
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 30px;
+}
+/* 4erti4ka */
+.benefit-title::after {
+    content: "";
+    width: 100%;
+    color:rebeccapurple;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.benefit-text {
+    color:yellowgreen;
+    text-align: center;
+    
+}
+
+.cta {
+    padding: 80px 100px;
+    text-align: center;
+
+}
+
+.cta-title {
+    margin-bottom: 0px;
+}
+/* da sa zalepeni zaglawieto i paragrafa */
+.cta-text {
+    margin-top: 0px;
+}
+
+.cta-btn {
+    background: chartreuse;
+    color:white;
+    
+padding: 12px 26px;
+/* stava po golqm */
+margin-top: 20px;
+}
+
+.skills{
+    display: flex;
+   align-items: center;
+   text-align: center;
+background: black;
+color: white;
+padding: 90px 50px;
+}
+.skill-title {
+margin-bottom: 40px;
+    
+}
+
+.skill {
+    margin: 0px 30px;
+}
+
+footer {
+    padding: 120px;
+    color: white;
+    background: green;
+}
+
+.footer-text {
+    text-align: center;
+    align-items: center;
+}
+
+.footer-text a {
+    text-decoration:none;
+    color: hotpink;
+}
