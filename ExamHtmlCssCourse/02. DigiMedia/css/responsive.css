@@ -1,0 +1,36 @@
+@media all and (max-width: 600px){
+  .navbar-brand {
+      position: absolute;
+      left: 45%;
+  }
+  .container-fluid.hero img {
+      display: none;
+  }
+  .container {
+      text-align: center;
+  }
+  .hero h1 {
+      margin-top: 80px;
+  }
+  .hero-btns {
+      display: flex;
+      flex-direction: column;
+      margin: 0 20%;
+  }
+
+  #home{
+      margin-bottom: 100px;
+  }
+  .service-txt {
+      margin-bottom: 80px;
+  }
+  .servise-box {
+     text-align: start;
+  }
+  .about > .container > .row > div:first-child {
+      margin: 30px 0px 80px 0px;
+  }
+  .hero-btns.contact-btn {
+      display: none;
+  }
+}
